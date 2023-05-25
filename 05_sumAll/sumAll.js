@@ -8,6 +8,12 @@ const sumAll = function(x, y) {
         for (let j = y; j <= x; j++) {
         sum += j;
         }
+    } else if ( x < 0 || y < 0) {
+        return "ERROR";
+    } else if (typeof x === "string" || typeof y === "string") {
+        return "ERROR";
+    } else if (Array.isArray(x) || Array.isArray(y)) {
+        return "ERROR";
     }
 
     return sum;
