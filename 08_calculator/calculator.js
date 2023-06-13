@@ -1,13 +1,24 @@
-const add = function() {
-	
+const add = function(a, b) {
+  let result = a + b; 
+
+  return result;
 };
 
-const subtract = function() {
-	
+const subtract = function(a, b) {
+  let result = a - b;
+
+  return result;
 };
 
-const sum = function() {
-	
+const sum = function(a, b) {
+  let result = a + b;
+  if (a = []) {
+    return 0;
+  } else if (b = []) {
+    return 0;
+  } else {
+    return result;
+  }
 };
 
 const multiply = function() {
