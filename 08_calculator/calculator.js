@@ -10,15 +10,8 @@ const subtract = function(a, b) {
   return result;
 };
 
-const sum = function(a, b) {
-  let result = a + b;
-  if (a = []) {
-    return 0;
-  } else if (b = []) {
-    return 0;
-  } else {
-    return result;
-  }
+const sum = function(array) {
+  return array.reduce((total, current) => total + current, 0)
 };
 
 const multiply = function() {
